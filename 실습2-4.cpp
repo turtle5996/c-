@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 	float a[4], emty;
-	cout << "5°³ÀÇ ½Ç¼ö¸¦ ÀÔ·ÂÇÏ¶ó>>";
+	cout << "5ê°œì˜ ì‹¤ìˆ˜ë¥¼ ìž…ë ¥í•˜ë¼>>";
 	cin >> a[0] >> a[1] >> a[2] >> a[3] >> a[4];
 	emty = a[4];
 	for (int i = 0; i < 4; i++) {
@@ -12,6 +12,5 @@ int main() {
 			emty = a[i];
 		else;
 	}
-	cout << "Á¦ÀÏ Å« ¼ö =" << emty << endl;
-	return 0;
+	cout << "ì œì¼ í° ìˆ˜ =" << emty << endl;
 }
